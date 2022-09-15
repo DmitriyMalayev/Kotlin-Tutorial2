@@ -63,7 +63,24 @@ fun main() {
     println("")
     println("")
 
-    println("MATH")
+    println("Boolean")
+
+    val isBlank: Boolean = false
+    println(isBlank)
+    println(isBlank.not())
+
+    println("")
+    println("")
+
+    println("Conditionals")
+
+    val calories = 2500
+    if (calories > 2000) {
+        println("Too many calories")
+    } else {
+        println("You can still eat more calories")
+    }
+
 
 
 
